@@ -1,0 +1,158 @@
+# 🌍 Customer Intelligence System using Classification, Ensemble Learning & Clustering
+
+## 📌 Project Overview
+
+This project develops an end-to-end **Customer Intelligence System** using Machine Learning techniques. The system performs customer/country segmentation through clustering and predicts segment categories using classification and ensemble learning algorithms.
+
+The project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), clustering, classification, model evaluation, and feature importance analysis.
+
+---
+
+## 🎯 Objectives
+
+* Perform exploratory data analysis on country development indicators.
+* Segment countries into meaningful groups using clustering techniques.
+* Build classification models to predict country segments.
+* Compare ensemble learning algorithms for predictive performance.
+* Identify the most influential features affecting country development.
+
+---
+
+## 📂 Dataset
+
+The dataset contains socio-economic and health indicators such as:
+
+* Child Mortality Rate
+* Exports
+* Imports
+* Health Expenditure
+* Income
+* Inflation
+* Life Expectancy
+* Total Fertility Rate
+* GDP per Capita (GDPP)
+
+Dataset Source: Kaggle Country Development Dataset
+
+---
+
+## ⚙️ Project Workflow
+
+### Phase 1: Data Understanding
+
+* Dataset Loading
+* Data Inspection
+* Missing Value Analysis
+* Statistical Summary
+
+### Phase 2: Exploratory Data Analysis & Preprocessing
+
+* Correlation Analysis
+* Distribution Analysis
+* Outlier Detection
+* Feature Scaling
+* Data Preprocessing Pipeline
+
+### Phase 3: Customer Segmentation (Clustering)
+
+* K-Means Clustering
+* DBSCAN Clustering
+* Hierarchical Clustering
+* Elbow Method
+* PCA Visualization
+* Segment Label Generation
+
+Generated Segments:
+
+* Underdeveloped
+* Developing
+* Developed
+* Advanced Economy
+
+### Phase 4: Classification & Ensemble Learning
+
+Models Implemented:
+
+* Decision Tree
+* Random Forest
+* AdaBoost
+* Gradient Boosting
+* XGBoost
+
+### Feature Importance Analysis
+
+* GDP per Capita (gdpp)
+* Child Mortality (child_mort)
+* Total Fertility Rate (total_fer)
+
+---
+
+## 📊 Model Performance
+
+| Model             | Accuracy |
+| ----------------- | -------: |
+| Decision Tree     |   97.06% |
+| Gradient Boosting |   97.06% |
+| AdaBoost          |   94.12% |
+| XGBoost           |   94.12% |
+| Random Forest     |   91.18% |
+
+Best Performing Models:
+
+* Decision Tree
+* Gradient Boosting
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* XGBoost
+* Joblib
+* Google Colab
+
+---
+
+
+---
+
+## 📈 Key Insights
+
+* GDP per Capita is the most influential factor in determining development segments.
+* Child Mortality Rate strongly impacts segmentation.
+* K-Means successfully identified meaningful country clusters.
+* Ensemble learning models achieved high predictive accuracy.
+* Decision Tree and Gradient Boosting provided the best performance with 97.06% accuracy.
+
+---
+
+## 🚀 Future Enhancements
+
+* Interactive Streamlit Dashboard
+* Automated Report Generation
+* Hyperparameter Optimization
+* Real-time Data Integration
+* Advanced Customer Analytics
+
+---
+
+## 👨‍💻 Author
+
+**Manish Kumar**
+
+B.Tech CSE (Data Science)
+
+Lloyd Institute of Engineering & Technology, Greater Noida
+
+AKTU University
+
+---
+
+## 📜 License
+
+This project is developed for educational and learning purposes.
