@@ -1,0 +1,42 @@
+# CIFAR-10 Image Classification: ANN vs. CNN
+
+This repository contains a Google Colab notebook designed to demonstrate the fundamentals of deep learning for image classification using the **CIFAR-10** dataset. It serves as a practical, step-by-step guide comparing the architecture and performance of an **Artificial Neural Network (ANN)** versus a **Convolutional Neural Network (CNN)**.
+
+## 🎯 Learning Goals
+* Understand the complete Deep Learning pipeline (Data loading, Preprocessing, Modeling, and Evaluation).
+* Learn **why** CNNs significantly outperform ANNs on spatial image data.
+* Observe the impact of training strategies like Dropout, Batch Normalization, and Data Augmentation.
+
+---
+
+## 🧠 Problem Statement
+The goal is to build and train two different neural network architectures to classify the 60,000 $32 \times 32$ color images from the CIFAR-10 dataset into their respective 10 classes:
+* **Classes:** `airplane`, `automobile`, `bird`, `cat`, `deer`, `dog`, `frog`, `horse`, `ship`, `truck`
+
+---
+
+## 📊 Model Comparison & Results
+
+By treating images as flattened vectors, the ANN loses spatial context. The CNN preserves these spatial relationships using convolutional layers and hierarchical feature extraction.
+
+### Performance Summary
+| Model | Test Accuracy | Key Characteristics |
+| :--- | :--- | :--- |
+| **ANN** | ~42.24% | Flattens image input, struggles with spatial features, lower accuracy. |
+| **CNN** | ~69.86% | Uses Conv2D + Pooling, extracts local patterns, significantly higher accuracy. |
+
+---
+
+## 🛠️ Tech Stack & Dependencies
+* **Framework:** TensorFlow 2.x / Keras
+* **Libraries:** NumPy, Pandas, Matplotlib
+* **Environment:** Google Colab / Jupyter Notebooks
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have the following packages installed if you run this locally:
+```bash
+pip install tensorflow matplotlib numpy pandas
